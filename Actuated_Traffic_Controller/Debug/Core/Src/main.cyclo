@@ -1,0 +1,16 @@
+../Core/Src/main.c:71:5:isFull	1
+../Core/Src/main.c:77:5:isEmpty	2
+../Core/Src/main.c:88:6:enqueue	6
+../Core/Src/main.c:121:5:dequeue	3
+../Core/Src/main.c:154:6:MAJOR_TURNS	1
+../Core/Src/main.c:180:6:MINOR_TURNS	1
+../Core/Src/main.c:206:6:MAJOR_LEFT_TURN	2
+../Core/Src/main.c:221:6:MAJOR_FORWARD	2
+../Core/Src/main.c:237:6:MINOR_LEFT_TURN	2
+../Core/Src/main.c:255:6:MINOR_FORWARD	2
+../Core/Src/main.c:273:5:main	9
+../Core/Src/main.c:368:6:HAL_GPIO_EXTI_Callback	19
+../Core/Src/main.c:407:6:SystemClock_Config	3
+../Core/Src/main.c:452:13:MX_GPIO_Init	1
+../Core/Src/main.c:540:6:EXTI9_5_IRQHandler	1
+../Core/Src/main.c:553:6:Error_Handler	1
