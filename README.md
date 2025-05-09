@@ -28,13 +28,13 @@ This project implements an intelligent traffic light system for intersections, u
    - Queue functions: `enqueue()`, `dequeue()`, `isEmpty()`, `isFull()`.  
    - Prevents duplicate requests for the same direction.  
 
-![Queue](Images\Queue_In_Action.gif)
+![Queue](Images/Queue_In_Action.gif)
 
 3. **Dynamic Adaptation**:  
    - Green light duration (`green_duration`) extends if vehicles are waiting (max 12 sec, min 1 sec).  
    - Sensor (button) interrupts update the queue and adjust timing.  
 
-![Green Extension](Images\Green_Extension.gif)
+![Green Extension](Images/Green_Extension.gif)
 
 4. **Testing Mode**:  
    - A button on `PA0` triggers full light cycles (`MAJOR_TURNS` and `MINOR_TURNS`) for debugging.  
@@ -50,7 +50,7 @@ This project implements an intelligent traffic light system for intersections, u
 3. **Interrupts**:  
    - Button presses add requests (`enqueue()`) and extend green lights if active.  
 
-See program [Here](Actuated_Traffic_Controller\Core\Src\main.c)
+See program [Here](Actuated_Traffic_Controller/Core/Src/main.c)
 
 ---
 
@@ -58,14 +58,14 @@ See program [Here](Actuated_Traffic_Controller\Core\Src\main.c)
 - **Simulation**:  
   - Proteus virtual components (LEDs, buttons) validated the logic.  
   
-  ![Proteus Simulation Image](Images\Proteus_Simulation.png)
+  ![Proteus Simulation Image](Images/Proteus_Simulation.png)
    The proteus simulation file is Actuated_Traffic_Lights.pdsprj - [Here](Actuated_Traffic_Lights.pdsprj)
 
 - **Physical Build**:  
   - LEDs connected to GPIOB/GPIOC.  
   - Buttons on PORTA (pins 1, 4, 5, 6) with pull-down resistors.  
 
-![Physical Build](Images\Physical_Build.jpeg)
+![Physical Build](Images/Physical_Build.jpeg)
 
 ---
 
